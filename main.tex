@@ -1,0 +1,84 @@
+\documentclass{article}
+
+
+\usepackage{arxiv}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{lipsum}
+\usepackage{graphicx}
+\input{Header2}
+\graphicspath{ {./images/} }
+
+
+\title{Data Mining Lecture Notes F2021}
+
+
+\author{
+ Mathias Ravn Tversted \\
+  Department of Computer Science\\
+  Aarhus University\\
+  Åbogade 34, 8200 Aarhus N \\
+  \texttt{Mathias@thesun.dk} \\
+  %% examples of more authors
+  %% \AND
+  %% Coauthor \\
+  %% Affiliation \\
+  %% Address \\
+  %% \texttt{email} \\
+  %% \And
+  %% Coauthor \\
+  %% Affiliation \\
+  %% Address \\
+  %% \texttt{email} \\
+  %% \And
+  %% Coauthor \\
+  %% Affiliation \\
+  %% Address \\
+  %% \texttt{email} \\
+}
+
+\begin{document}
+\maketitle
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{ausegl_blaa.png}
+\end{center}
+\newpage
+\tableofcontents
+\newpage
+
+% keywords can be removed
+%\keywords{First keyword \and Second keyword \and More}
+
+\section{Representative and density-based clustering}
+\input{repdensitycluster}
+\newpage
+\section{High dimensional clustering}
+\input{highdimclustering}
+\newpage
+\section{Outlier detection}
+\input{outliers}
+\newpage
+\section{Community Detection}
+\input{communitydetection}
+\newpage
+\section{Embeddings}
+\input{embeddings}
+\newpage
+\section{Frequent patterns}
+\input{frequentpatterns}
+\newpage
+\section{Similarities}
+\input{similarities}
+
+
+
+
+
+\end{document}
